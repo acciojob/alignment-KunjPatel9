@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+#table-1{
+	width: 100%;
+	border-spacing: 0;
+}
+#table-1 td{border: 1px solid #000000}
+.left{
+	text-align:left
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+
+#table-2{
+	width: 100%;
+	margin-top: 50px;
+}
+#table-2 td{
+	border: 1px solid #000000;
+	padding: 10px
+}
+#table-2 .border-top-none{
+	border-top:none;
+}
+#table-2 .border-bottom-none{
+	border-bottom:none;
+}
+
+#table-3{
+	margin-top: 50px;
+	width:100%;
+}
+#table-3 td{
+	border: 1px solid #000000;
+	padding: 10px
+}
+.bg-green{
+	background: green;
+}
+.bg-blue{
+	background: blue;
+}
